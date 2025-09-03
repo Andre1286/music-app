@@ -74,14 +74,25 @@ function TrackCard({ title, href, blurb, cover, tag }:{
 
 export default function MusicPage() {
   const tracks = [
-    { title: 'Every Time I Think of You', href: ETTIY_YOUTUBE, blurb: 'Pop music with rhythm and soul.', tag: 'Official Music Video' },
-    { title: 'If Only for the Love', href: IFONLY_YOUTUBE, blurb: 'If only for the love.', tag: 'Official Music Video' },
+    export default function MusicPage() {
+  const tracks = [
+    { 
+      title: "Every Time I Think of You", 
+      href: ETTIY_YOUTUBE, 
+      blurb: "Pop music with rhythm and soul.", 
+      tag: "Official Music Video" 
+    },
+    { 
+      title: "If Only for the Love", 
+      href: IFONLY_YOUTUBE, 
+      blurb: "If only for the love.", 
+      tag: "Official Music Video" 
+    }
   ];
+
   return (
     <main className="mx-auto max-w-6xl p-6 text-white">
-      <header className="mb-6 flex items-end justify-between gap-4">
-        <h1 <h1 className="text-3xl font-bold tracking-tight">Rhythm Realm Music</h1>
-        <a href={utm('https://rhythmrealm.net/')} target="_blank" rel="noopener noreferrer"
+
            className="rounded-xl bg-cyan-500/20 px-3 py-2 text-sm font-semibold text-cyan-200 ring-1 ring-cyan-400/30 transition hover:bg-cyan-500/30">
           Visit RhythmRealm.net
         </a>
