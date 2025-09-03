@@ -72,8 +72,7 @@ function TrackCard({ title, href, blurb, cover, tag }:{
   );
 }
 
-export default function MusicPage() {
-  const tracks = [
+
     export default function MusicPage() {
   const tracks = [
     { 
